@@ -1,3 +1,4 @@
+set_global_assignment -name FAMILY "Cyclone V"
 # MiSTer top level
 
 set_global_assignment -name TOP_LEVEL_ENTITY sys_top
@@ -5,7 +6,7 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
-set_global_assignment -name LAST_QUARTUS_VERSION "17.0.2 Standard Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.0.2 Lite Edition"
 
 set_global_assignment -name GENERATE_RBF_FILE ON
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ${OUTPUTDIR}
@@ -72,3 +73,5 @@ set_instance_assignment -name FAST_OUTPUT_ENABLE_REGISTER ON -to SDRAM_DQ[*]
 set_global_assignment -name FORCE_SYNCH_CLEAR ON
 
 # Always leave a blank line at the end
+
+set_global_assignment -name DEVICE 5CGXFC7C7F23C8
