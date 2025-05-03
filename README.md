@@ -5,7 +5,7 @@ Tested: Working Video 720p, 1080p & Sound
 Games: Pipi & Bibis - Whoopee!!, Snow Bros 2, Teki Paki, Truxton 2
 
 Dev notes:
-Snow Bros 2 has the clocks swapped in sys.tcl
+Snow Bros 2 has the clocks swapped in sys.tcl, otherwise the sound will be broken.
 
 ___
 # Toaplan Version 2 FPGA Implementation
