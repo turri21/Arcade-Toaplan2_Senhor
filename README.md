@@ -1,3 +1,13 @@
+-=(Toaplan2_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound
+
+Games: Pipi & Bibis - Whoopee!!, Snow Bros 2, Teki Paki, Truxton 2
+
+Dev notes:
+Snow Bros 2 has the clocks swapped in sys.tcl
+
+___
 # Toaplan Version 2 FPGA Implementation
 
 FPGA compatible cores of Toaplan Version 2 arcade hardware titles for [**MiSTerFPGA**](https://github.com/MiSTer-devel/Main_MiSTer/wiki) and [**OpenFPGA**](https://github.com/open-fpga) written by [**atrac17**](https://github.com/atrac17). Based on the [**Raizing FPGA**](https://github.com/psomashekar/Raizing_FPGA) implementation by Pramod Somashekar.
